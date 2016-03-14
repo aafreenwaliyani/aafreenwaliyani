@@ -1,0 +1,158 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    background-color:white;
+    width: 100%;
+}
+.banner {
+    width: 100%;
+    height:159px;
+}
+
+#imagedisplay{
+    /*margin*//*-left:25%;*/
+    /*margin-left:20px;*/
+}
+
+#detaildisplay{
+    /*margin-left:50%;*/
+}
+#userInfo{
+    /*height:15%;*/
+    background-color: white;
+}
+
+#InfoLogin{
+     width:70%;
+     float:left;
+     background-color:powderblue;
+}
+#Login{
+    float:right;
+    width:30%;
+    background-color:ActiveCaption;
+}
+#nav{
+	width: 100%;
+	display: block;
+	text-align: center;
+	float: left;
+    height: 50px;
+    /*background: peru;*/
+    text-transform: uppercase;
+}
+
+.banner2 {
+    width: 100%;
+    height:130px;
+}
+
+nav:link, nav:visited {
+    display: block;
+    width: 118px;
+    color:  black;
+    /*text-align: center;*/
+    padding: 4px;
+    height:50px;
+    /*text-decoration: none;*/
+    
+    
+}
+
+/*a:hover, a:active {
+    background-color: peru;
+}*/
+
+#ISBN{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	float: left;
+    background: Gray;
+    height:auto;
+}
+#ISBN h2{
+     
+   text-align: center;
+  
+}
+		
+#ISBN h1{
+   text-align: center;
+  
+}
+
+#ISBN h4{
+   text-align: left;
+
+  
+}
+a:link {
+    text-decoration: underline;
+}
+#Ads1{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	float: left;
+    background: Crimson; 
+}
+#Ads1 h3{
+     
+   text-align: center;
+  
+}
+		
+#Ads2{
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	float: left;
+    background: Olive;
+    /*height:10%*/ 
+}
+
+#Links{
+    background: white;
+    text-align: left;
+    text-transform:none;
+}
+
+#QA{
+    background: white;
+    text-align: left;
+    text-transform:none;
+}
+#isbnno{
+    width: 100%;
+	display: inline-block;
+    text-align: center;
+
+}
+
+.banner1 {
+    width: 50%;
+    height:159px;
+    margin-left:25%;
+    margin-right:25%;
+}
+.finance{
+    width: 100%;
+   /*height:147px;*/
+   /*float:none;*/ 
+
+}
+#showisbn
+{   margin-left: 30%;
+
+}
+#bookdetail
+{   margin-top: 25%;
+    margin-left:30%
+}	
+#buttons{
+    display: inline-block;
+	text-align: center;
+	float: left;
+
+}

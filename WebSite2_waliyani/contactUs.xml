@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContactUs>
+  <info contact-phone="1-800-666-1171" 
+        contact-email="helpline@easyas123bookbuyers.com" 
+        address-street="12345 Holly Drive" 
+        address-city="City of Aspen" 
+        address-state="CO" 
+        address-zip="81611" ></info>
+</ContactUs>

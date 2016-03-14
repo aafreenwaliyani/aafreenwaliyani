@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>Book7.jpg</ImageUrl>
+    <NavigateUrl>http://www.wallpapersmap.com</NavigateUrl>
+    <AlternateText>Wallpaper Site</AlternateText>
+    <Impressions>1</Impressions>
+    <Keyword></Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>Book8.jpg</ImageUrl>
+    <NavigateUrl>http://www.fastcompany.com</NavigateUrl>
+    <AlternateText>Fast company Site</AlternateText>
+    <Impressions>2</Impressions>
+    <Keyword></Keyword>
+  </Ad>
+  <Ad>
+    <ImageUrl>Book9.jpg</ImageUrl>
+    <NavigateUrl>http://www.happybabiesonline.com</NavigateUrl>
+    <AlternateText>Happy Babies Site</AlternateText>
+    <Impressions>3</Impressions>
+    <Keyword></Keyword>
+  </Ad>
+</Advertisements>
