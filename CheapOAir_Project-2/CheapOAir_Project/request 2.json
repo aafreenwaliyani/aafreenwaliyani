@@ -1,0 +1,36 @@
+{
+"request": {
+
+        "passengers": {
+
+            "adultCount": 1
+
+        },
+
+        "slice": [
+
+                  {
+
+                  "origin": "BOS",
+
+                  "destination": "LAX",
+
+                  "date": "2015-11-28"
+
+                  },
+
+                  {
+
+                  "origin": "LAX",
+
+                  "destination": "BOS",
+
+                  "date": "2015-12-25"
+
+                  }
+
+                  ],
+    "solutions": 10,
+    "refundable": false
+
+    }

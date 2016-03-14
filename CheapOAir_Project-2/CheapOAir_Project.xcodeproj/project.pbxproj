@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49A3C9A61C18FF96008756B3 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3C9A51C18FF96008756B3 /* PaymentViewController.m */; };
+		49A3C9A91C190183008756B3 /* PaymentInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A3C9A81C190183008756B3 /* PaymentInfo.m */; };
+		49A3C9AD1C191521008756B3 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 49A3C9AC1C191521008756B3 /* icon.png */; };
+		B122395B1C13AC4800264520 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B122395A1C13AC4800264520 /* HistoryTableViewController.m */; };
+		B12239691C13EE3000264520 /* airplane_512pxGREY.png in Resources */ = {isa = PBXBuildFile; fileRef = B12239671C13EE3000264520 /* airplane_512pxGREY.png */; };
+		B122396A1C13EE3000264520 /* calendar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B12239681C13EE3000264520 /* calendar_icon.png */; };
+		B122396F1C15164700264520 /* onewayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B122396E1C15164700264520 /* onewayTableViewCell.m */; };
+		B159128D1BE08AC000E3A170 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B159128C1BE08AC000E3A170 /* main.m */; };
+		B15912901BE08AC000E3A170 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B159128F1BE08AC000E3A170 /* AppDelegate.m */; };
+		B15912931BE08AC000E3A170 /* CheapOAir_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B15912911BE08AC000E3A170 /* CheapOAir_Project.xcdatamodeld */; };
+		B159129B1BE08AC000E3A170 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B159129A1BE08AC000E3A170 /* Images.xcassets */; };
+		B159129E1BE08AC000E3A170 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B159129C1BE08AC000E3A170 /* LaunchScreen.xib */; };
+		B15912AA1BE08AC000E3A170 /* CheapOAir_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B15912A91BE08AC000E3A170 /* CheapOAir_ProjectTests.m */; };
+		B15912B71BE0935700E3A170 /* TravelerDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15912B61BE0935700E3A170 /* TravelerDetailsViewController.m */; };
+		B15912BA1BE0937500E3A170 /* PriceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15912B91BE0937500E3A170 /* PriceDetailsViewController.m */; };
+		B15912BE1BE0A39100E3A170 /* MainSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B15912BD1BE0A39100E3A170 /* MainSearchViewController.m */; };
+		B1603E4D1BFFE84D0002F858 /* request.json in Resources */ = {isa = PBXBuildFile; fileRef = B1603E4C1BFFE84D0002F858 /* request.json */; };
+		B16800AF1BE191360033AE87 /* PrintTravelerInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16800AE1BE191360033AE87 /* PrintTravelerInfoViewController.m */; };
+		B16801021BE260C30033AE87 /* ResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B16801011BE260C30033AE87 /* ResultTableViewController.m */; };
+		B19EE8571C17C4D400719FAE /* RoundwayResultTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B19EE8561C17C4D400719FAE /* RoundwayResultTableViewController.m */; };
+		B19EE85A1C17C51200719FAE /* roundwayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B19EE8591C17C51200719FAE /* roundwayTableViewCell.m */; };
+		B19EE8631C17DB4E00719FAE /* roundway.json in Resources */ = {isa = PBXBuildFile; fileRef = B19EE8621C17DB4E00719FAE /* roundway.json */; };
+		B19EE8661C17DFCA00719FAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19EE8641C17DFCA00719FAE /* Main.storyboard */; };
+		B19EE8691C182B9800719FAE /* TravelerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B19EE8681C182B9800719FAE /* TravelerInfo.m */; };
+		B1D7957A1C1B9CA100F9CB95 /* LoadingStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D795781C1B9CA100F9CB95 /* LoadingStatus.m */; };
+		B1D866841C18BF7900909EFA /* launchscreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D866811C18BF7900909EFA /* launchscreen.jpg */; };
+		B1D8668A1C18C18F00909EFA /* backimg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1D866891C18C18F00909EFA /* backimg.jpg */; };
+		B1D866921C18CC7F00909EFA /* historyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D866911C18CC7F00909EFA /* historyTableViewCell.m */; };
+		B1D866941C192EF700909EFA /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1D866931C192EF600909EFA /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B15912A41BE08AC000E3A170 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B159127F1BE08AC000E3A170 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B15912861BE08AC000E3A170;
+			remoteInfo = CheapOAir_Project;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49A3C9A41C18FF96008756B3 /* PaymentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaymentViewController.h; path = CheapOAir_Project/PaymentViewController.h; sourceTree = SOURCE_ROOT; };
+		49A3C9A51C18FF96008756B3 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaymentViewController.m; path = CheapOAir_Project/PaymentViewController.m; sourceTree = SOURCE_ROOT; };
+		49A3C9A71C190183008756B3 /* PaymentInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaymentInfo.h; sourceTree = "<group>"; };
+		49A3C9A81C190183008756B3 /* PaymentInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentInfo.m; sourceTree = "<group>"; };
+		49A3C9AC1C191521008756B3 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		B12239591C13AC4800264520 /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		B122395A1C13AC4800264520 /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		B12239671C13EE3000264520 /* airplane_512pxGREY.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = airplane_512pxGREY.png; sourceTree = "<group>"; };
+		B12239681C13EE3000264520 /* calendar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calendar_icon.png; sourceTree = "<group>"; };
+		B122396D1C15164700264520 /* onewayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onewayTableViewCell.h; sourceTree = "<group>"; };
+		B122396E1C15164700264520 /* onewayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = onewayTableViewCell.m; sourceTree = "<group>"; };
+		B15912871BE08AC000E3A170 /* CheapOAir_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheapOAir_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B159128B1BE08AC000E3A170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B159128C1BE08AC000E3A170 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B159128E1BE08AC000E3A170 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B159128F1BE08AC000E3A170 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B15912921BE08AC000E3A170 /* CheapOAir_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CheapOAir_Project.xcdatamodel; sourceTree = "<group>"; };
+		B159129A1BE08AC000E3A170 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B159129D1BE08AC000E3A170 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B15912A31BE08AC000E3A170 /* CheapOAir_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CheapOAir_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B15912A81BE08AC000E3A170 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B15912A91BE08AC000E3A170 /* CheapOAir_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheapOAir_ProjectTests.m; sourceTree = "<group>"; };
+		B15912B51BE0935700E3A170 /* TravelerDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelerDetailsViewController.h; sourceTree = "<group>"; };
+		B15912B61BE0935700E3A170 /* TravelerDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelerDetailsViewController.m; sourceTree = "<group>"; };
+		B15912B81BE0937500E3A170 /* PriceDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriceDetailsViewController.h; sourceTree = "<group>"; };
+		B15912B91BE0937500E3A170 /* PriceDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriceDetailsViewController.m; sourceTree = "<group>"; };
+		B15912BC1BE0A39100E3A170 /* MainSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainSearchViewController.h; sourceTree = "<group>"; };
+		B15912BD1BE0A39100E3A170 /* MainSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainSearchViewController.m; sourceTree = "<group>"; };
+		B1603E4C1BFFE84D0002F858 /* request.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = request.json; path = ../request.json; sourceTree = "<group>"; };
+		B16800AD1BE191360033AE87 /* PrintTravelerInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintTravelerInfoViewController.h; sourceTree = "<group>"; };
+		B16800AE1BE191360033AE87 /* PrintTravelerInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintTravelerInfoViewController.m; sourceTree = "<group>"; };
+		B16801001BE260C30033AE87 /* ResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewController.h; sourceTree = "<group>"; };
+		B16801011BE260C30033AE87 /* ResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewController.m; sourceTree = "<group>"; };
+		B19EE8551C17C4D400719FAE /* RoundwayResultTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundwayResultTableViewController.h; sourceTree = "<group>"; };
+		B19EE8561C17C4D400719FAE /* RoundwayResultTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundwayResultTableViewController.m; sourceTree = "<group>"; };
+		B19EE8581C17C51200719FAE /* roundwayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roundwayTableViewCell.h; sourceTree = "<group>"; };
+		B19EE8591C17C51200719FAE /* roundwayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = roundwayTableViewCell.m; sourceTree = "<group>"; };
+		B19EE8621C17DB4E00719FAE /* roundway.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = roundway.json; sourceTree = "<group>"; };
+		B19EE8651C17DFCA00719FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CheapOAir_Project/Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B19EE8671C182B9800719FAE /* TravelerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelerInfo.h; sourceTree = "<group>"; };
+		B19EE8681C182B9800719FAE /* TravelerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelerInfo.m; sourceTree = "<group>"; };
+		B1D795781C1B9CA100F9CB95 /* LoadingStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingStatus.m; sourceTree = "<group>"; };
+		B1D795791C1B9CA100F9CB95 /* LoadingStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingStatus.h; sourceTree = "<group>"; };
+		B1D866811C18BF7900909EFA /* launchscreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = launchscreen.jpg; sourceTree = "<group>"; };
+		B1D866891C18C18F00909EFA /* backimg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = backimg.jpg; sourceTree = "<group>"; };
+		B1D866901C18CC7F00909EFA /* historyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = historyTableViewCell.h; sourceTree = "<group>"; };
+		B1D866911C18CC7F00909EFA /* historyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = historyTableViewCell.m; sourceTree = "<group>"; };
+		B1D866931C192EF600909EFA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B15912841BE08AC000E3A170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D866941C192EF700909EFA /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15912A01BE08AC000E3A170 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B10F33DE1BE26E83002D459D /* ResultTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B16801001BE260C30033AE87 /* ResultTableViewController.h */,
+				B16801011BE260C30033AE87 /* ResultTableViewController.m */,
+				B19EE8551C17C4D400719FAE /* RoundwayResultTableViewController.h */,
+				B19EE8561C17C4D400719FAE /* RoundwayResultTableViewController.m */,
+				B19EE8581C17C51200719FAE /* roundwayTableViewCell.h */,
+				B19EE8591C17C51200719FAE /* roundwayTableViewCell.m */,
+				B122396D1C15164700264520 /* onewayTableViewCell.h */,
+				B122396E1C15164700264520 /* onewayTableViewCell.m */,
+			);
+			name = ResultTableView;
+			sourceTree = "<group>";
+		};
+		B10F33DF1BE276EA002D459D /* PaymentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				49A3C9A41C18FF96008756B3 /* PaymentViewController.h */,
+				49A3C9A51C18FF96008756B3 /* PaymentViewController.m */,
+			);
+			name = PaymentViewController;
+			path = /Users/ugp/Downloads/CheapOAir_Project/CheapOAir_Project;
+			sourceTree = "<absolute>";
+		};
+		B10F33E41BE277B0002D459D /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				B159128E1BE08AC000E3A170 /* AppDelegate.h */,
+				B159128F1BE08AC000E3A170 /* AppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		B12239581C13AC0F00264520 /* HistoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B12239591C13AC4800264520 /* HistoryTableViewController.h */,
+				B122395A1C13AC4800264520 /* HistoryTableViewController.m */,
+				B1D866901C18CC7F00909EFA /* historyTableViewCell.h */,
+				B1D866911C18CC7F00909EFA /* historyTableViewCell.m */,
+			);
+			name = HistoryViewController;
+			sourceTree = "<group>";
+		};
+		B122395C1C13ADDE00264520 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				49A3C9AC1C191521008756B3 /* icon.png */,
+				B1D866891C18C18F00909EFA /* backimg.jpg */,
+				B1D866811C18BF7900909EFA /* launchscreen.jpg */,
+				B12239671C13EE3000264520 /* airplane_512pxGREY.png */,
+				B12239681C13EE3000264520 /* calendar_icon.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B159127E1BE08AC000E3A170 = {
+			isa = PBXGroup;
+			children = (
+				B1D866931C192EF600909EFA /* MessageUI.framework */,
+				B15912891BE08AC000E3A170 /* CheapOAir_Project */,
+				B15912A61BE08AC000E3A170 /* CheapOAir_ProjectTests */,
+				B15912881BE08AC000E3A170 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B15912881BE08AC000E3A170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B15912871BE08AC000E3A170 /* CheapOAir_Project.app */,
+				B15912A31BE08AC000E3A170 /* CheapOAir_ProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B15912891BE08AC000E3A170 /* CheapOAir_Project */ = {
+			isa = PBXGroup;
+			children = (
+				B1D795781C1B9CA100F9CB95 /* LoadingStatus.m */,
+				B1D795791C1B9CA100F9CB95 /* LoadingStatus.h */,
+				B122395C1C13ADDE00264520 /* Images */,
+				B12239581C13AC0F00264520 /* HistoryViewController */,
+				B10F33E41BE277B0002D459D /* Delegates */,
+				B15912BB1BE0A35200E3A170 /* MainSearchWindow */,
+				B10F33DE1BE26E83002D459D /* ResultTableView */,
+				B15912B31BE0925A00E3A170 /* PriceDetailsView */,
+				B15912B41BE0926B00E3A170 /* TravelerDetailsView */,
+				B16800AC1BE190F10033AE87 /* PrintTravelerInfoView */,
+				B10F33DF1BE276EA002D459D /* PaymentViewController */,
+				B159129A1BE08AC000E3A170 /* Images.xcassets */,
+				B19EE8641C17DFCA00719FAE /* Main.storyboard */,
+				B159129C1BE08AC000E3A170 /* LaunchScreen.xib */,
+				B15912911BE08AC000E3A170 /* CheapOAir_Project.xcdatamodeld */,
+				B19EE8671C182B9800719FAE /* TravelerInfo.h */,
+				B19EE8681C182B9800719FAE /* TravelerInfo.m */,
+				B159128A1BE08AC000E3A170 /* Supporting Files */,
+			);
+			path = CheapOAir_Project;
+			sourceTree = "<group>";
+		};
+		B159128A1BE08AC000E3A170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				49A3C9A71C190183008756B3 /* PaymentInfo.h */,
+				49A3C9A81C190183008756B3 /* PaymentInfo.m */,
+				B19EE8621C17DB4E00719FAE /* roundway.json */,
+				B1603E4C1BFFE84D0002F858 /* request.json */,
+				B159128B1BE08AC000E3A170 /* Info.plist */,
+				B159128C1BE08AC000E3A170 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B15912A61BE08AC000E3A170 /* CheapOAir_ProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				B15912A91BE08AC000E3A170 /* CheapOAir_ProjectTests.m */,
+				B15912A71BE08AC000E3A170 /* Supporting Files */,
+			);
+			path = CheapOAir_ProjectTests;
+			sourceTree = "<group>";
+		};
+		B15912A71BE08AC000E3A170 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B15912A81BE08AC000E3A170 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B15912B31BE0925A00E3A170 /* PriceDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				B15912B81BE0937500E3A170 /* PriceDetailsViewController.h */,
+				B15912B91BE0937500E3A170 /* PriceDetailsViewController.m */,
+			);
+			name = PriceDetailsView;
+			sourceTree = "<group>";
+		};
+		B15912B41BE0926B00E3A170 /* TravelerDetailsView */ = {
+			isa = PBXGroup;
+			children = (
+				B15912B51BE0935700E3A170 /* TravelerDetailsViewController.h */,
+				B15912B61BE0935700E3A170 /* TravelerDetailsViewController.m */,
+			);
+			name = TravelerDetailsView;
+			sourceTree = "<group>";
+		};
+		B15912BB1BE0A35200E3A170 /* MainSearchWindow */ = {
+			isa = PBXGroup;
+			children = (
+				B15912BC1BE0A39100E3A170 /* MainSearchViewController.h */,
+				B15912BD1BE0A39100E3A170 /* MainSearchViewController.m */,
+			);
+			name = MainSearchWindow;
+			sourceTree = "<group>";
+		};
+		B16800AC1BE190F10033AE87 /* PrintTravelerInfoView */ = {
+			isa = PBXGroup;
+			children = (
+				B16800AD1BE191360033AE87 /* PrintTravelerInfoViewController.h */,
+				B16800AE1BE191360033AE87 /* PrintTravelerInfoViewController.m */,
+			);
+			name = PrintTravelerInfoView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B15912861BE08AC000E3A170 /* CheapOAir_Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15912AD1BE08AC000E3A170 /* Build configuration list for PBXNativeTarget "CheapOAir_Project" */;
+			buildPhases = (
+				B15912831BE08AC000E3A170 /* Sources */,
+				B15912841BE08AC000E3A170 /* Frameworks */,
+				B15912851BE08AC000E3A170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheapOAir_Project;
+			productName = CheapOAir_Project;
+			productReference = B15912871BE08AC000E3A170 /* CheapOAir_Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B15912A21BE08AC000E3A170 /* CheapOAir_ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B15912B01BE08AC000E3A170 /* Build configuration list for PBXNativeTarget "CheapOAir_ProjectTests" */;
+			buildPhases = (
+				B159129F1BE08AC000E3A170 /* Sources */,
+				B15912A01BE08AC000E3A170 /* Frameworks */,
+				B15912A11BE08AC000E3A170 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B15912A51BE08AC000E3A170 /* PBXTargetDependency */,
+			);
+			name = CheapOAir_ProjectTests;
+			productName = CheapOAir_ProjectTests;
+			productReference = B15912A31BE08AC000E3A170 /* CheapOAir_ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B159127F1BE08AC000E3A170 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = UHCL;
+				TargetAttributes = {
+					B15912861BE08AC000E3A170 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					B15912A21BE08AC000E3A170 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = B15912861BE08AC000E3A170;
+					};
+				};
+			};
+			buildConfigurationList = B15912821BE08AC000E3A170 /* Build configuration list for PBXProject "CheapOAir_Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B159127E1BE08AC000E3A170;
+			productRefGroup = B15912881BE08AC000E3A170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B15912861BE08AC000E3A170 /* CheapOAir_Project */,
+				B15912A21BE08AC000E3A170 /* CheapOAir_ProjectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B15912851BE08AC000E3A170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1D8668A1C18C18F00909EFA /* backimg.jpg in Resources */,
+				B1D866841C18BF7900909EFA /* launchscreen.jpg in Resources */,
+				B12239691C13EE3000264520 /* airplane_512pxGREY.png in Resources */,
+				B122396A1C13EE3000264520 /* calendar_icon.png in Resources */,
+				B1603E4D1BFFE84D0002F858 /* request.json in Resources */,
+				B19EE8631C17DB4E00719FAE /* roundway.json in Resources */,
+				49A3C9AD1C191521008756B3 /* icon.png in Resources */,
+				B159129B1BE08AC000E3A170 /* Images.xcassets in Resources */,
+				B19EE8661C17DFCA00719FAE /* Main.storyboard in Resources */,
+				B159129E1BE08AC000E3A170 /* LaunchScreen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B15912A11BE08AC000E3A170 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B15912831BE08AC000E3A170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B122395B1C13AC4800264520 /* HistoryTableViewController.m in Sources */,
+				B15912B71BE0935700E3A170 /* TravelerDetailsViewController.m in Sources */,
+				B15912BA1BE0937500E3A170 /* PriceDetailsViewController.m in Sources */,
+				B15912901BE08AC000E3A170 /* AppDelegate.m in Sources */,
+				B19EE8691C182B9800719FAE /* TravelerInfo.m in Sources */,
+				B1D866921C18CC7F00909EFA /* historyTableViewCell.m in Sources */,
+				B15912BE1BE0A39100E3A170 /* MainSearchViewController.m in Sources */,
+				B19EE8571C17C4D400719FAE /* RoundwayResultTableViewController.m in Sources */,
+				B122396F1C15164700264520 /* onewayTableViewCell.m in Sources */,
+				B16801021BE260C30033AE87 /* ResultTableViewController.m in Sources */,
+				B16800AF1BE191360033AE87 /* PrintTravelerInfoViewController.m in Sources */,
+				B19EE85A1C17C51200719FAE /* roundwayTableViewCell.m in Sources */,
+				49A3C9A91C190183008756B3 /* PaymentInfo.m in Sources */,
+				B159128D1BE08AC000E3A170 /* main.m in Sources */,
+				B15912931BE08AC000E3A170 /* CheapOAir_Project.xcdatamodeld in Sources */,
+				49A3C9A61C18FF96008756B3 /* PaymentViewController.m in Sources */,
+				B1D7957A1C1B9CA100F9CB95 /* LoadingStatus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B159129F1BE08AC000E3A170 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B15912AA1BE08AC000E3A170 /* CheapOAir_ProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B15912A51BE08AC000E3A170 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B15912861BE08AC000E3A170 /* CheapOAir_Project */;
+			targetProxy = B15912A41BE08AC000E3A170 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B159129C1BE08AC000E3A170 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B159129D1BE08AC000E3A170 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B19EE8641C17DFCA00719FAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19EE8651C17DFCA00719FAE /* Base */,
+			);
+			name = Main.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B15912AB1BE08AC000E3A170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B15912AC1BE08AC000E3A170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B15912AE1BE08AC000E3A170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheapOAir_Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uhcl.sce.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B15912AF1BE08AC000E3A170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CheapOAir_Project/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uhcl.sce.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B15912B11BE08AC000E3A170 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CheapOAir_ProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uhcl.sce.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheapOAir_Project.app/CheapOAir_Project";
+			};
+			name = Debug;
+		};
+		B15912B21BE08AC000E3A170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CheapOAir_ProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.uhcl.sce.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CheapOAir_Project.app/CheapOAir_Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B15912821BE08AC000E3A170 /* Build configuration list for PBXProject "CheapOAir_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15912AB1BE08AC000E3A170 /* Debug */,
+				B15912AC1BE08AC000E3A170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15912AD1BE08AC000E3A170 /* Build configuration list for PBXNativeTarget "CheapOAir_Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15912AE1BE08AC000E3A170 /* Debug */,
+				B15912AF1BE08AC000E3A170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B15912B01BE08AC000E3A170 /* Build configuration list for PBXNativeTarget "CheapOAir_ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B15912B11BE08AC000E3A170 /* Debug */,
+				B15912B21BE08AC000E3A170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B15912911BE08AC000E3A170 /* CheapOAir_Project.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B15912921BE08AC000E3A170 /* CheapOAir_Project.xcdatamodel */,
+			);
+			currentVersion = B15912921BE08AC000E3A170 /* CheapOAir_Project.xcdatamodel */;
+			path = CheapOAir_Project.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B159127F1BE08AC000E3A170 /* Project object */;
+}
